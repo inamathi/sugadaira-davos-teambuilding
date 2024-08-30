@@ -1,0 +1,29 @@
+[
+  {
+    "session": 1,
+    "title": "パネリスト",
+    "name": "清宮 克幸",
+    "kana": "きよみや かつゆき",
+    "subtitle": "清宮幸太郎の父",
+    "description": "サントリー・ヤマハ発動機を優勝に導いたうんぬんかんぬん",
+    "thumbnailUrl": "hogehoge"
+  },
+  {
+    "session": 1,
+    "title": "パネリスト",
+    "name": "廣瀬 俊朗",
+    "kana": "ひろせ としあき",
+    "subtitle": "清宮幸太郎の父",
+    "description": "サントリー・ヤマハ発動機を優勝に導いたうんぬんかんぬん",
+    "thumbnailUrl": "hogehoge"
+  },
+  {
+    "session": 1,
+    "title": "ファシリテータ",
+    "name": "中竹 竜二",
+    "kana": "なかたけ りゅうじ",
+    "subtitle": "清宮幸太郎の父",
+    "description": "サントリー・ヤマハ発動機を優勝に導いたうんぬんかんぬん",
+    "thumbnailUrl": "hogehoge"
+  }
+]
