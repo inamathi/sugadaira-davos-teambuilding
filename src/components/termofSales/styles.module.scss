@@ -1,0 +1,34 @@
+.basic {
+  border-collapse: separate;
+  border-spacing: 2px;
+  width: 100%;
+  th {
+    font-size: 0.9rem;
+    text-align: right;
+    white-space: nowrap;
+    padding: 10px;
+    background: #e7e7e7;
+    border-left: solid 3px#ccc;
+    @media screen and (max-width: 640px) {
+      white-space: normal;
+      font-size: 0.8rem;
+      padding: 4px;
+    }
+  }
+  td {
+    font-size: 0.9rem;
+    padding: 10px;
+    background: #f5f5f5;
+    line-height: 1.7;
+    a {
+      &:link,
+      &:visited {
+        color: #369;
+        font-weight: bold;
+      }
+      &:hover {
+        color: rgb(94, 175, 255);
+      }
+    }
+  }
+}

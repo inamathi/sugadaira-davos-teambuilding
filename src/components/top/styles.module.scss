@@ -1,0 +1,59 @@
+.overview {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  div {
+    display: flex;
+    gap: 20px;
+    @media screen and (max-width: 640px) {
+      flex-direction: column;
+      gap: 5px;
+    }
+    dt {
+      font-weight: bold;
+      font-size: 0.9rem;
+      width: 40%;
+      font-size: 0.9rem;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      @media screen and (max-width: 640px) {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+    dd {
+      font-size: 0.9rem;
+      @media screen and (max-width: 640px) {
+        text-align: center;
+      }
+      span {
+        font-size: 0.9rem;
+        display: block;
+      }
+      &.large {
+        font-weight: bold;
+        font-size: 2rem;
+        .small {
+          font-size: 1.2rem;
+          display: inline-block;
+          margin: 0 2px;
+          font-feature-settings: 'palt';
+        }
+      }
+    }
+  }
+}
+// .maintitle {
+//   &:before {
+//     content: '';
+//     display: block;
+//     position: absolute;
+//     width: 100%;
+//     height: 64px;
+//     border-left: solid 1px red;
+//     border-bottom: solid 1px blue;
+//     transform: translate(50%, -50%);
+//   }
+// }

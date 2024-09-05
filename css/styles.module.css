@@ -1,0 +1,53 @@
+.overview {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.overview div {
+  display: flex;
+  gap: 20px;
+}
+@media screen and (max-width: 640px) {
+  .overview div {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+.overview div dt {
+  font-weight: bold;
+  font-size: 0.9rem;
+  width: 40%;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 640px) {
+  .overview div dt {
+    width: 100%;
+    justify-content: center;
+  }
+}
+.overview div dd {
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 640px) {
+  .overview div dd {
+    text-align: center;
+  }
+}
+.overview div dd span {
+  font-size: 0.9rem;
+  display: block;
+}
+.overview div dd.large {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.overview div dd.large .small {
+  font-size: 1.2rem;
+  display: inline-block;
+  margin: 0 2px;
+  font-feature-settings: "palt";
+}/*# sourceMappingURL=styles.module.css.map */
